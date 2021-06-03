@@ -11,6 +11,9 @@ e.Conversion to lower cases
 
 Text to Vector 
 
+The number of columns after merging all data sets
+sentence_index	sentence	phrase	phrase ids	splitset_label	sentiment values
+
 
 classifier(
   (embedding): Embedding(18010, 300)
