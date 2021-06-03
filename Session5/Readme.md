@@ -11,9 +11,22 @@ e.Conversion to lower cases
 
 Text to Vector 
 
-The number of columns after merging all data sets
-sentence_index	sentence	phrase	phrase ids	splitset_label	sentiment values
 
+The number of columns after merging all data sets
+sentence_index	
+sentence	
+phrase	
+phrase ids	
+splitset_label	
+sentiment values
+
+Exploratory Data Anlayisis
+![Unknown](https://user-images.githubusercontent.com/70034867/120689945-47121900-c4c2-11eb-96d7-96dd34235289.png)
+
+Let’s plot the number of words appearing in each data frame phrase
+![Unknown-2](https://user-images.githubusercontent.com/70034867/120690968-7d9c6380-c4c3-11eb-9c24-633325f2ef85.png)
+
+It appears to be in 15 -17 the number of words in phrase
 
 classifier(
   (embedding): Embedding(18010, 300)
