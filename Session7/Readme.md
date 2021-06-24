@@ -23,3 +23,10 @@ Embedding dim
 hiddeln layer
 batch
 epochs
+
+classifier(
+  (embedding): Embedding(16373, 300)
+  (encoder): LSTM(300, 100, num_layers=2, batch_first=True, dropout=0.2)
+  (fc): Linear(in_features=100, out_features=3, bias=True)
+)
+The model has 5,153,803 trainable parameters
